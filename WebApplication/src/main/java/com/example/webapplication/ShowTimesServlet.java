@@ -31,7 +31,6 @@ public class ShowTimesServlet extends HttpServlet {
 
         // 将新值保存回上下文
         context.setAttribute("times", times);
-
         // 向客户端输出结果
         out.print("网站已被访问 " + times + " 次");
     }
